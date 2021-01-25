@@ -13,11 +13,11 @@ function App() {
         <NavLink to="/temperature">Temperature</NavLink>
         <NavLink to="/customize-image">Customize image</NavLink>
       </nav>
-      
+
       <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/temperature" component={Temperature} />
-        <Route path="/customize-image" component={CustomizeImage} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/temperature" component={Temperature} />
+        <Route exact path="/customize-image" component={CustomizeImage} />
       </Switch>
     </div>
   );

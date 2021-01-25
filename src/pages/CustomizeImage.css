@@ -1,0 +1,17 @@
+.customize-image-page{
+      text-align: center;
+}
+
+.customize-image-page input[type="text"]{
+      width: 50%;
+}
+
+
+.customize-image-page input[type="range"]{
+      width: 30%;   
+}
+.customize-image-page input[type="range"]::-ms-track{
+      background: deepskyblue;
+      cursor: pointer;
+      border: 2px solid salmon;
+}
